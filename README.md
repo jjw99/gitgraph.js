@@ -2,6 +2,7 @@
 
 A JavaScript library to draw pretty git graphs.
 
+Test
 ---
 
 👋 **[Help! The project is looking for maintainers!](https://github.com/nicoespeon/gitgraph.js/issues/328)**
