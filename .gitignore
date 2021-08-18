@@ -148,7 +148,7 @@ Thumbs.db
 .vscode/
 
 # compiled files
-lib
+#lib
 
 # npm
 package-lock.json
