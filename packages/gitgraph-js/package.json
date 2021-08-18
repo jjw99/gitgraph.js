@@ -31,14 +31,8 @@
   "module": "./lib/index.js",
   "jsnext:main": "./lib/index.js",
   "typings": "./lib/index.d.ts",
-  "directories": {
-    "lib": "lib"
-  },
-  "files": [
-    "lib"
-  ],
   "scripts": {
-    "prewatch": "rimraf ./lib",
+    "prewatch_disable": "rimraf ./lib",
     "watch": "tsc -w",
     "build": "run-s build:*",
     "build:clear": "rimraf ./lib",

@@ -31,7 +31,7 @@
   "jsnext:main": "./lib/index.js",
   "typings": "./lib/index.d.ts",
   "scripts": {
-    "prewatch": "rimraf ./lib",
+    "prewatch_disable": "rimraf ./lib",
     "watch": "tsc -w",
     "test": "jest",
     "build": "run-s build:*",
@@ -40,7 +40,7 @@
     "build:bundle": "rollup -c rollup.config.js",
     "build:browserify": "browserify ./lib/bundle.umd.js -o ./lib/bundle.js",
     "build:minify": "uglifyjs -c -m -o ./lib/bundle.min.js -- ./lib/bundle.js",
-    "prepare": "npm run build",
+    "prepare_disable": "npm run build",
     "version": "auto-changelog -p -l 0 --tag-prefix @gitgraph/core@ && git add CHANGELOG.md",
     "prepublishOnly": "npm run test"
   },
